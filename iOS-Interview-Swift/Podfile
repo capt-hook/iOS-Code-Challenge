@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target "iOS-Interview-Swift" do
+
+# 1) rx
+# pod 'RxSwift'
+# pod 'RxCocoa'
+# pod 'RxBlocking'
+
+# 2) basic stuff
+pod 'Alamofire'
+pod 'SwiftyJSON'
+
+# you can use this for mapping models to JSON
+# pod 'ObjectMapper'
+
+# auto-layout framework
+# pod 'SnapKit'
+
+end
